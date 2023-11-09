@@ -103,3 +103,12 @@ footer span {
 nav p img {
   height: 30px;
 }
+@media (max-width:480px){
+  nav{
+    display: flex;
+    flex-direction: column;
+  }
+  #search{
+    margin-top: 0.7rem;
+  }
+}
